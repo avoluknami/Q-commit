@@ -214,3 +214,51 @@ header {
 .green-btn:focus {
     background-color: var(--accepte-color);
 }
+/*main part is finished*/
+.footer--info {
+    margin-top:155px;
+    display:flex;
+    justify-content:space-between;
+    padding-right:30%;
+}
+.column-first , .column-second , .column-third , .column-fourth {
+    display:flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+.footer__menu {
+    font-size:14px;
+    letter-spacing: 0.2px;
+    color:var(--second-text-color);
+    margin-top:10px;
+}
+.column-first {
+    margin:0px 114px 0px 197px;
+}
+.column-second {
+    margin:0px 100px 0px 0px;
+}
+.column-third {
+    margin:0px 162px 0px 0px;
+}
+.column-fourth {
+    margin:0px 306px 0px 0px;
+}
+h3 {
+    font-size:24px;
+    color:var(--text-color);
+}
+.social-container {
+    display:flex;
+    gap:22px;
+    margin-top:26px;
+}
+.last-footer {
+    position: absolute;
+    margin-top:270px;
+    padding:25px 0px 27px 540px;
+    color:var(--second-text-color);
+    white-space:nowrap;
+}
+/*footer is finished*/
+
