@@ -1,0 +1,16 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --main-color:#FFFFFF;
+    --font-weight:700;
+    --secondary-color:#23A6F0;
+    --text-color:#252B42;
+    --danger-color:#E74040;
+    --second-text-color:#737373;
+    --accepte-color:forestgreen;
+}
+body, div, h1, h2, ul, ol, p, hr{
+    padding: 0;
+    margin: 0;
+}
